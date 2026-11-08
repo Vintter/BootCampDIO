@@ -1,0 +1,186 @@
+Prompt: Sou um monitor de engenharia de software. Tenho de dar auxilio aos alunos estudar/revisar o conteudo da aulas anteriores e tirar dúvidas. A última aula soi sobre modelo de desenvolvimento incremental. Crie um roteiro de estudos de 1h e 30min, incluido: contexto sobre como o modelo foi desenvolvido, suas etapas (o que é feito nesta etapa, quem são os responsáveis), modelo de fluxo de processos, suas vantages em relação ao modelo anterior (cascata). Formule tambem perguntas sobre o tema. Saída:  Contextualização sobre o modelo, tabela com detalhamento sobre as etapas, vantagens em relação ao cascata, diagrama de fluxo com explicação de cada fluxo, perguntas.
+
+Resposta:
+1. Contextualização sobre o Modelo Incremental (15 min)
+O que é?
+O Modelo de Desenvolvimento Incremental é uma abordagem de Engenharia de Software em que o sistema é desenvolvido e entregue em pequenas partes funcionais chamadas de incrementos.
+Diferentemente do modelo cascata, onde o produto completo só fica disponível ao final do projeto, no modelo incremental cada versão entregue já possui funcionalidades utilizáveis.
+
+Como surgiu?
+O modelo incremental surgiu como uma evolução do Modelo Cascata.
+Problemas observados no Cascata:
+-Longo tempo para entrega do produto.
+-Dificuldade de acompanhar mudanças de requisitos.
+-Usuário só visualiza o sistema quando ele está praticamente pronto.
+-Alto custo para correções identificadas tardiamente.
+
+Como resposta a esses problemas, surgiu a ideia de:
+-Dividir o projeto em partes menores.
+-Entregar valor mais rapidamente ao cliente.
+-Receber feedback contínuo.
+-Reduzir riscos do desenvolvimento.
+
+2. Etapas do Modelo Incremental (25 min)
+Etapa				|	O que é feito									|	Responsáveis
+--------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------
+Levantamento de Requisitos	|	Identificação das necessidades do cliente e priorização das funcionalidades	|	Cliente, Analista de Requisitos, Product Owner
+Planejamento dos Incrementos	|	Divisão dos requisitos em partes menores e definição das entregas		|	Gerente de Projeto, Analista e Equipe Técnica
+Projeto (Design)		|	Definição da arquitetura e do design para o incremento atual			|	Arquiteto de Software e Desenvolvedores
+Implementação			|	Codificação das funcionalidades planejadas para o incremento			|	Desenvolvedores
+Testes				|	Verificação da qualidade e funcionamento do incremento				|	Equipe de Testes (QA) e Desenvolvedores
+Entrega				|	Disponibilização do incremento ao usuário					|	Equipe de Desenvolvimento e Implantação
+Feedback			|	Coleta de sugestões, críticas e ajustes						|	Usuários, Cliente e Equipe
+Próximo Incremento		|	Desenvolvimento de novas funcionalidades com base no planejamento e feedback	|	Toda a equipe
+
+
+Observação
+Embora exista uma sequência semelhante ao cascata dentro de cada incremento, o sistema é construído em ciclos menores até sua conclusão.
+
+
+3. Modelo de Fluxo de Processos (15 min)
+
+Requisitos Gerais
+        │
+        ▼
+Planejamento
+        │
+        ▼
+ ┌─────────────────┐
+ │ Incremento 1    │
+ │ Análise         │
+ │ Projeto         │
+ │ Implementação   │
+ │ Testes          │
+ └───────┬─────────┘
+         │
+         ▼
+      Entrega 1
+         │
+         ▼
+      Feedback
+         │
+         ▼
+ ┌─────────────────┐
+ │ Incremento 2    │
+ │ Análise         │
+ │ Projeto         │
+ │ Implementação   │
+ │ Testes          │
+ └───────┬─────────┘
+         │
+         ▼
+      Entrega 2
+         │
+         ▼
+      Feedback
+         │
+         ▼
+      ...
+         │
+         ▼
+ Produto Completo
+
+
+Explicação do Fluxo
+-Requisitos Gerais
+
+São identificadas todas as funcionalidades desejadas para o sistema.
+
+-Planejamento
+
+Os requisitos são priorizados e organizados em incrementos.
+
+-Desenvolvimento do Incremento
+
+Cada incremento passa pelas atividades de:
+Análise
+Projeto
+Implementação
+Testes
+
+-Entrega
+Uma versão funcional é disponibilizada ao cliente.
+
+-Feedback
+
+O cliente avalia a entrega e sugere melhorias.
+
+-Próximo Incremento
+Novas funcionalidades são adicionadas ao produto.
+
+-Produto Completo
+Após vários incrementos, o sistema atende todos os requisitos planejados.
+
+
+4. Vantagens do Modelo Incremental em Relação ao Cascata (15 min)
+Aspecto				|	Cascata				|	Incremental
+--------------------------------|---------------------------------------|---------------------------------------
+Entregas			|	Apenas no final			|	Entregas frequentes
+Feedback			|	Tardio				|	Contínuo
+Mudanças de Requisitos		|	Difíceis e caras		|	Mais simples
+Visibilidade do Projeto		|	Baixa				|	Alta
+Riscos				|	Identificados tardiamente	|	Identificados cedo
+Valor para o Cliente		|	Apenas no final			|	Desde o primeiro incremento
+Testes				|	Próximos ao final do projeto	|	Durante todo o desenvolvimento
+Correção de Erros		|	Mais custosa			|	Menos custosa
+
+
+Principais Benefícios
+
+- Entrega rápida de valor.
+- Melhor adaptação a mudanças.
+- Redução de riscos.
+- Maior participação do cliente.
+- Feedback constante.
+- Melhor controle do projeto.
+- Possibilidade de priorizar funcionalidades mais importantes.
+
+
+5. Perguntas para Revisão (20 min)
+Conceituais
+
+O que é o Modelo Incremental?
+
+Qual problema do Modelo Cascata motivou o surgimento do Modelo Incremental?
+
+O que é um incremento?
+
+Qual a principal característica que diferencia o Incremental do Cascata?
+
+Por que o feedback é importante nesse modelo?
+
+Sobre as Etapas
+
+Qual é a primeira atividade realizada em um projeto incremental?
+
+O que acontece na fase de planejamento dos incrementos?
+
+Quem são os principais responsáveis pela implementação?
+
+Qual o objetivo da etapa de testes?
+
+O que ocorre após a entrega de cada incremento?
+
+Comparação com Cascata
+
+Em qual modelo o cliente recebe funcionalidades mais cedo?
+
+Qual modelo possui maior flexibilidade para mudanças?
+
+Em qual modelo os riscos podem ser identificados mais rapidamente?
+
+Por que o custo de correção tende a ser menor no modelo incremental?
+
+Qual modelo exige requisitos mais estáveis desde o início?
+
+Questões Verdadeiro ou Falso
+
+(F) No modelo incremental, o sistema é entregue apenas ao final do projeto.
+
+(V) Cada incremento gera uma versão funcional do sistema.
+
+(V) O feedback do cliente pode influenciar os próximos incrementos.
+
+(F) O modelo incremental elimina completamente a necessidade de testes.
+
+(F) O modelo cascata é mais flexível para mudanças do que o incremental.
